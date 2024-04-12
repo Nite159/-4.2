@@ -1,0 +1,397 @@
+@media (max-width: 360px) {
+  nav .menu_item {
+    display: none;
+  }
+  header nav {
+    padding-top: 14px;
+    height: 47.5px;
+  }
+  .row .language {
+    margin-left: 300px;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  .order {
+    padding: 10px 0 2px 0;
+    width: 360px;
+    height: 468px;
+  }
+  .order .arrive {
+    display: block;
+    margin-top: 150px;
+    margin-left: 85px;
+    width: 156px;
+    height: 49px;
+  }
+  .order .arrive .hotel {
+    width: 156px;
+    height: 49px;
+  }
+  .order .hotel .hotel_descr {
+    font-weight: 400;
+    font-size: 12px;
+    margin: 8px 22px 7px 22px;
+  }
+  .order .hotel #hotel_check_mark {
+    margin: 24px 22px 20px 116px;
+  }
+  .order .arrive .time {
+    width: 156px;
+    height: 49px;
+  }
+  .order .arrive .time .the_time {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 70px 20px 20px 20px;
+  }
+  .order .time .time_descr {
+    font-weight: 400;
+    font-size: 12px;
+    margin: 8px 22px 7px 22px;
+  }
+  .order .time .time_check_mark {
+    margin: 24px 22px 20px 116px;
+  }
+  .order .hotel .the_hotel {
+    font-weight: 400;
+    font-size: 16px;
+    width: 156px;
+    height: 49px;
+    padding: 50px 10px 2px 22px;
+  }
+  .order .arrive .exit {
+    width: 156px;
+    height: 49px;
+  }
+  .order .arrive .exit .the_exit {
+    padding: 22px 0px 2px 90px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .order .arrive .exit .exit_descr {
+    padding: 2px 10px 2px 22px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .order .arrive .book {
+    width: 156px;
+    height: 36px;
+  }
+  .order .book .book_descr {
+    padding: 8px 1px 1px 1px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .about_us .title,
+  .title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+  }
+  .our_rooms .hotel_rooms .hotel_content .section-description {
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #222;
+  }
+  .our_rooms .hotel_rooms .hotel_content .rooms-text {
+    display: none;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .our_rooms {
+    padding: 2px 0 2px 0;
+  }
+  .our_rooms .hotel_rooms .hotel_content {
+    margin: 1px 1px 1px 1px;
+  }
+  .our_rooms .hotel_rooms .hotel_content .rooms-quotes {
+    padding: 50px 0px 32px 10px;
+  }
+
+  .our_ivents .ivents {
+    display: block;
+  }
+  .our_ivents .title_ivent {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .our_ivents .ivents .riverside_valencia .picture_ivent {
+    width: 235px;
+    height: 215px;
+  }
+  .kitchen .our_kitchen {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+  }
+  .kitchen .kitchen_info .kitchen_content {
+    margin: 2px 34px 288px 27px;
+  }
+  .kitchen .kitchen_info .kitchen_content .sub_title {
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .kitchen .kitchen_info .kitchen_content .kitchen_descr {
+    display: none;
+  }
+
+  .contacts {
+    margin-top: -560px;
+    padding: 0 2px 65px 2px;
+  }
+  .contacts .title_contact {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .comments {
+    margin-top: -200px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .our_ivents {
+    padding: 0px 45px 1px 45px;
+  }
+  .ivents .riverside_valencia .picture_ivent {
+    width: 400px;
+    height: 300px;
+  }
+  .contacts {
+    padding: 0 170px 65px 170px;
+  }
+}
+@media (max-width: 1400px) {
+  .our_ivents {
+    padding: 0px 30px 1px 30px;
+  }
+  .our_ivents .ivents .riverside_valencia .picture_ivent {
+    width: 390px;
+    height: 340px;
+  }
+  .our_rooms .hotel_rooms .room_picture {
+    margin: 46px 0px 48px 20px;
+  }
+  .contacts {
+    padding: 0 140px 65px 140px;
+  }
+  .comments {
+    padding: 68px 30px 82px 30px;
+  }
+}
+@media (max-width: 1320px) {
+  .our_ivents .ivents .riverside_valencia .picture_ivent {
+    width: 360px;
+    height: 320px;
+  }
+  .contacts {
+    padding: 0 90px 65px 90px;
+  }
+  .comments {
+    padding: 68px 15px 82px 15px;
+  }
+  .comments .three_comments {
+    width: 360px;
+    height: 180px;
+  }
+}
+@media (max-width: 1240px) {
+  .our_rooms .hotel_rooms .room_picture {
+    width: 660px;
+    height: 540px;
+  }
+  .kitchen .kitchen_info .video_kitchen {
+    width: 800px;
+    height: 630px;
+  }
+  header .row .menu {
+    margin-right: 10px;
+  }
+  .contacts {
+    padding: 0 150px 65px 150px;
+  }
+  .contacts .menu_contacts {
+    width: 920px;
+    height: 550px;
+  }
+  .our_rooms .hotel_rooms .room_picture {
+    margin: 46px 0px 48px 20px;
+  }
+}
+@media (max-width: 1200px) {
+  header .row .menu_name {
+    margin-left: -180px;
+  }
+  header .row .menu {
+    margin-right: -75px;
+  }
+
+  .about_us .about_descr {
+    padding-left: 170px;
+    padding-right: 200px;
+  }
+  .our_rooms .hotel_rooms {
+    margin-left: -120px;
+  }
+  .comments {
+    padding: 68px 0px 82px 0px;
+  }
+  .our_ivents .ivents .riverside_valencia .picture_ivent {
+    width: 320px;
+    height: 300px;
+  }
+  .our_ivents .ivents .riverside_valencia .block {
+    margin-top: -321px;
+    width: 132px;
+    height: 134px;
+  }
+  .comments .all_comments {
+    display: inline-block;
+    margin-left: 280px;
+  }
+  .comments .three_comments {
+    margin-bottom: 20px;
+    width: 384px;
+    height: 190px;
+  }
+}
+
+@media (max-width: 992px) {
+  .our_rooms .hotel_rooms .room_picture {
+    width: 580px;
+    height: 510px;
+  }
+  .color_button {
+    width: 360px;
+    height: 45px;
+  }
+  .our_ivents .ivents .riverside_valencia .picture_ivent {
+    width: 270px;
+    height: 250px;
+  }
+  .our_ivents .ivents .riverside_valencia .block {
+    margin-top: -278px;
+    width: 105px;
+    height: 111px;
+  }
+  .contacts .menu_contacts {
+    width: 670px;
+    height: 550px;
+  }
+}
+@media (max-width: 768px) {
+  header .row .menu_name {
+    margin-left: -225px;
+  }
+  header .row .menu {
+    margin-right: -150px;
+    margin-left: -50px;
+  }
+  header .row .menu {
+    margin-right: -8px;
+  }
+  .menu .menu_item {
+    margin-top: -37px;
+  }
+  .row .language {
+    margin-top: -43px;
+  }
+}
+
+@media (max-width: 576px) {
+  header .row .menu_name {
+    font-size: 16px;
+    margin-left: 122px;
+  }
+  .about_us .about_descr {
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 18px;
+    padding-right: 17px;
+  }
+  .color_button {
+    width: 171px;
+    height: 48px;
+    margin-left: 3px;
+  }
+  .color_button .room_button {
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .our_rooms .hotel_rooms .room_picture {
+    width: 270px;
+    height: 258px;
+  }
+  .our_ivents .ivents .riverside_valencia .block {
+    margin-top: -251px;
+    width: 105px;
+    height: 74px;
+  }
+  .our_ivents .ivents .riverside_valencia .block .date_ivent {
+    margin-top: -7px;
+  }
+  .kitchen .kitchen_info .video_kitchen {
+    width: 280px;
+    height: 220px;
+    margin: 1px 1px 0 -50px;
+  }
+  .contacts .menu_contacts {
+    padding: 25px 75px 49px 65px;
+    width: 360px;
+    height: 393px;
+    margin-left: -162px;
+  }
+  .message_1 {
+    display: none;
+  }
+  .message .send {
+    margin: 30px 0 0 27px;
+
+    width: 156px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .our_ivents {
+    margin-top: -400px;
+    padding-left: 48px;
+  }
+  .comments {
+    min-height: 80px;
+  }
+  .comments .all_comments {
+    display: none;
+  }
+  footer {
+    padding: 1px 1px 1px 1px;
+    min-height: 100px;
+  }
+  footer .logo {
+    font-weight: 900;
+    font-size: 30px;
+  }
+  footer .footer_info {
+    display: none;
+  }
+  footer .footer_hr {
+    display: none;
+  }
+  footer .footer_icons {
+    margin-left: 80px;
+  }
+  footer .footer_icons i {
+    font-size: 25px;
+  }
+  footer .footer_info .about {
+    display: none;
+  }
+  footer .foter_descr ul {
+    display: none;
+  }
+  footer .footeer_date {
+    display: none;
+  }
+}
